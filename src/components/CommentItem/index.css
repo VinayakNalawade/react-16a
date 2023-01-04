@@ -1,0 +1,99 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.li {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #cbd2d9;
+  list-style-type: none;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profileimg {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  color: #cbd2d9;
+}
+
+.usertimeContainer {
+  display: flex;
+}
+
+.userheading {
+  padding-right: 10px;
+  margin: 0;
+}
+
+.likedeleteContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.likeimg {
+  width: 20px;
+  padding-bottom: 2px;
+}
+
+.liked {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #0284c7;
+}
+
+.like {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+
+.deletebutton {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.deleteicon {
+  width: 22px;
+}

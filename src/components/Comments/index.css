@@ -1,0 +1,103 @@
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentingSection {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #cbd2d9;
+}
+.heading {
+  width: 90%;
+  align-self: left;
+  text-align: left;
+}
+
+.mainimg {
+  width: 80%;
+}
+
+.inputContainer {
+  width: 100%;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInput {
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  padding: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.commentInput {
+  font-size: 16px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.submitbutton {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  width: 120px;
+  outline: none;
+  border: none;
+  padding: 12px;
+  border-radius: 9px;
+}
+
+.commentsSection {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.totalheading {
+  display: flex;
+}
+
+.totalbutton {
+  outline: none;
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border: none;
+  font-size: 17px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.commentsContainer {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .commentingSection {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mainimg {
+    width: 45%;
+    order: 1;
+    padding-bottom: 15px;
+  }
+
+  .inputContainer {
+    width: 48%;
+  }
+}
