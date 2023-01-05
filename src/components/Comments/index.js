@@ -114,12 +114,12 @@ class Comments extends Component {
           </form>
         </div>
         <div className="commentsSection">
-          <h1 className="totalheading">
+          <p className="totalheading">
             <button className="totalbutton" type="button">
               {commentList.length}
             </button>{' '}
             Comments
-          </h1>
+          </p>
           <ul className="commentsContainer">
             {commentList.map(each => (
               <CommentItem
